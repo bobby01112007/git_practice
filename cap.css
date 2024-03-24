@@ -1,0 +1,389 @@
+
+html {
+    display: flex;
+    width: 100%;
+    margin: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.header{
+    display: flex;
+    color: gray;
+    padding: 32px 0px;
+}
+.aca {
+    display: flex;
+    width: 50%;
+    padding-top: 10px;
+    justify-content: flex-start;
+}
+.others {
+    display: flex;
+    padding-top: 10px;
+    padding-right: 24px;
+    width: 40%;
+    justify-content: flex-end;
+}
+.oncampus {
+    padding-right: 16px;
+}
+.online {
+    padding-right: 16px;
+}
+.grey {
+    display: flex;
+    background-color: rgba(219, 208, 208, 0.859);
+    width: 100vw;
+}
+.second {
+   margin: auto 0;
+   padding-left: 24px;
+   margin-left: 0;
+}
+.study{
+    padding: 32px 24px;
+    width: 60vw;
+}
+.button{
+    background-color: grey;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo {
+    text-align: center;
+    padding-left: 24px;
+}
+.practice {
+    display: flex;
+}
+.left{
+    padding-left: 24px;
+    padding-right: 0;
+    padding-top: 32px;
+}
+.book{
+    width: 100%;
+    padding-bottom: 24px;
+}
+.emma{
+    padding-bottom: 32px;
+}
+.practicing{
+    padding-top: 0;
+    margin-top: 0;
+}
+.firstrow{
+    width: 50%;
+}
+.right{
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 24px;
+}
+.orien:hover{
+    background: goldenrod;
+}
+.campus:hover{
+    background-color: goldenrod;
+}
+.lecture:hover{
+    background-color: goldenrod;
+}
+.bigorien{
+    text-align: left;
+    padding-left: 20px;
+}
+.orien{
+    display: flex;
+    text-align: center; 
+    padding: 32px 16px 16px 16px;
+}
+
+.campus{
+    display: flex;
+    text-align: center;
+    padding: 16px;
+}
+.lecture{
+    display: flex;
+    text-align: center;
+    padding: 16px;
+}
+.image1 {
+    width: 25%;
+    height: auto;
+}
+.image2 {
+    width: 25%;
+    height: auto;
+}
+.image3 {
+    width: 25%;
+    height: auto;
+}
+
+/* THIRD */
+
+
+.yomom {
+    background-color: aqua;
+}
+.start{
+    justify-content: center;
+    padding-top: 15px;
+}
+.start {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+}
+.startlearning{
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+}
+.firstline{
+    display: flex;
+    flex-direction: row;
+
+    padding-bottom: 32px;
+    width: 100%;
+    justify-content: center;
+}
+.secondline{
+    display:flex;
+    padding-bottom: 32px;
+    width: 100%;
+    justify-content: center;
+}
+.toalign{
+}
+.firstrow{
+    background-color: white;
+    margin-right: 32px;
+    width: 20%;
+}
+.secondrow{
+    background-color: white;
+    
+}
+.toalign{
+    display: block;
+}
+.computer{
+    width: 100%;
+    height: auto;
+}
+.software{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.chua{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.last{
+    padding: 32px;
+}
+.video{
+    width: 100%;
+}
+.total{
+    display:flex;
+    padding-bottom: 32px;
+    padding-left: 24px;
+}
+.lineleft{
+    padding-right: 0;
+    width: 150%;
+}
+.undervid{
+    width: 100%;
+}
+.lineright{
+    display: block;
+    width: 100%;
+    justify-content: flex-end;
+}
+.draw{
+    width: 25%;
+
+}
+.a{
+    display: flex;
+    text-align: center; 
+    justify-content: flex-start;
+    padding: 16px;
+}
+.b{
+    display: flex;
+    text-align: center;
+    padding: 16px;
+}
+.footer{
+    padding-left: 24px;
+    display: flex;
+    width: 100%;
+}
+i.fa-regular.fa-copyright{   
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+.h6{
+    
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 40px;
+}
+.terms{
+    padding-right: 20px;
+}
+.lastly{
+    display: flex;
+    width: 100%;
+}
+.full{
+    padding-left: 50px;
+}
+.a:hover{
+    background: red;
+}
+.b:hover{
+    background: red;
+}
+.full1{
+    padding-left: 80px;
+}
+.starti{
+    font-size: 2em;
+    background-color: grey;
+    align-self: center;
+    justify-content: center;
+    padding-top: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+h2{
+    font-size: 2em;
+}
+div{
+    font-size: 1em;
+}
+.image1{
+    display:block;
+}
+.image2{
+    display:none;
+}
+.another{
+    display:none;
+}
+.other{
+    display:none;
+}
+@media only screen and (max-width: 480px) {
+    .grey {
+        display: block;
+    }
+    .study{
+        padding: 0;
+        width: 100vw
+    }
+    .second{
+        width: 100vw;
+        padding-bottom: 32px;
+    }
+    .practice{
+        display: block;
+        padding-left: 0;
+    }
+    .left{
+        padding-left: 0;
+        width: 100vw;
+    }
+    .right{
+        padding-left: 0;
+        width: 100vw;
+        margin-left: 0;
+    }
+    .orien{
+        padding-left: 0;
+        display: block;
+    }
+    .campus{
+        padding-left: 0;
+        display: block;
+    }
+    .lecture{
+        padding-left: 0;
+        display: block;
+    }
+    .image1{
+        display:none;
+    }
+    .image2{
+        width: 100vw;
+        display: block;
+    }
+    .start{
+        width: 100vw;
+    }
+    .another{
+        display: block;
+        width:100vw;
+    }
+    .an{
+        display: block;
+        margin: 8px;
+        padding: 16px;
+    }
+    .toalign{
+        display: none;
+    }
+    .an:hover{
+        background:grey;
+    }
+    .undervid{
+        display: none;
+    }
+    .lineright{
+        display:none;
+    }
+    .video{
+        width: 100vw;
+        padding-left: 0;
+    }
+    .last{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .line-left{
+        padding-left: 0;
+
+    }
+    .total{
+        padding-left:0;
+        padding-right: 0;
+        padding-bottom:0;
+    }
+    hr{
+        display:none;
+    }
+    .end{
+        display:none;
+    }
+    .header{
+        display:none;
+    }
+    .other{
+        display:flex;
+        justify-content: space-around;
+    }
+}
